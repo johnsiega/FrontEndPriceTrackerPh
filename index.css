@@ -1,0 +1,23 @@
+:root {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+/* Remove the conflicting light/dark mode styles that might override our theme */
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+/* Ensure links use our theme colors */
+a {
+  font-weight: 500;
+  text-decoration: inherit;
+}
+
+/* Remove default button styles that conflict */
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
